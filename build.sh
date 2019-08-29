@@ -9,6 +9,7 @@ latexmk -pdf -c -interaction=nonstopmode
 git add -A
 git commit -m "Autobuild on $(date)"
 git tag $filedate
+git push origin master
 git push --tags origin
 
 # make named resume file
