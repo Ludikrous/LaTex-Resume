@@ -23,3 +23,5 @@ git remote add resume git@github.com:Ludikrous/Resume.git
 git add $resumefilename
 git commit -m "Autobuild on $(date)"
 git push -f --set-upstream resume master
+
+rm -rf resumeOnly
