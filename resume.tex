@@ -20,9 +20,9 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[margin,centered]{resume} % Use the custom resume.cls style
+\documentclass[mm,centered]{resume} % Use the custom resume.cls style
 \usepackage{hyperref}
-\usepackage[left=0.5in,top=0.35in,right=0.5in,bottom=0.35in]{geometry} % Document margins
+\usepackage[left=0.5in,top=0.25in,right=0.5in,bottom=0.35in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Dhanvee Ivaturi} % Your name
@@ -30,7 +30,8 @@
 
 \begin{document}
 \\
-\vspace{-0.65cm}
+
+\vspace{-0.7cm}
 \begin{center}
 \begin{tabular}{c | c | c | c | c}
 		\href{http://www.dhanvee.xyz}{
@@ -80,15 +81,15 @@ Technologies\ & Deep Learning, Data mining, Build automation, Containers, Micros
 \begin{rSection}{Work Experience}
 
 	\begin{rSubsection}{Symantec Corporation}{\textbf{May - August 2019}}{Software Engineering Intern - Cloud Platform Engineering}{Mountain View, CA}
-		\item Developed a lightweight, configurable, and containerized application in \textit{Golang} to report metrics for any given microservice, with minimal developer effort. \underline{Currently used in production environments.}
-		\item Added features to a \textit{Python} deployment tool to support new security features for the cloud platform
-		\item Implemented \textit{Jenkins} integration tests for a cloud service by adding thorough test cases for 10+ REST endpoints
-		\item Designed \textit{Grafana} dashboards to visualize metrics from any service, improving understanding of platform health
+		\item Developed a lightweight, configurable, and containerized application in \textbf{Golang} to report metrics for any given microservice, with minimal developer effort. \underline{Currently used in production environments.}
+		\item Added features to a \textbf{Python} deployment tool to support new security features for the cloud platform
+		\item Implemented \textbf{Jenkins} integration tests for a cloud service by adding thorough test cases for 10+ REST endpoints
+		\item Designed \textbf{Grafana} dashboards to visualize metrics from any service, improving understanding of platform health
 	\end{rSubsection}
 
 	\begin{rSubsection}{HuEx Inc}{\textbf{June - November 2018}}{Data Analysis Intern}{Palo Alto, CA}
-		\item Analyzed 10 GB of raw CSV travel data to identify product-market fit and target markets with \textit{Pandas}
-		\item Scraped various websites with \textit{Python}, \textit{Selenium}, and \textit{BeautifulSoup} for data that helped decide target market
+		\item Analyzed 10 GB of raw CSV travel data to identify product-market fit and target markets with \textbf{Pandas}
+		\item Scraped websites with \textbf{Python}, \textbf{Selenium}, and \textbf{BeautifulSoup} for data that helped decide target market
 	\end{rSubsection}
 
 \end{rSection}
@@ -103,7 +104,7 @@ Technologies\ & Deep Learning, Data mining, Build automation, Containers, Micros
 	\item 
 		Trained a custom deep CNN to predict a user’s emotion with a picture of their face using GCP and TPUs
 	\item 
-		Designed and implemented a novel data pipeline to minimize response times and improve accuracy, using \textit{Flask}
+		Designed and implemented a novel data pipeline to minimize response times and improve accuracy, using \textbf{Flask}
 	\item
 		\underline{1st place winner and best AI hack @ HackRU}
   \end{list}
@@ -112,9 +113,9 @@ Technologies\ & Deep Learning, Data mining, Build automation, Containers, Micros
  \begin{list}{$\cdot$}{\leftmargin=1em} % \cdot used for bullets, no indentation
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
 	\item 
-		Compared various ML algorithms (\textit{KNN}, \textit{SVM}, \textit{Logistic Regression}, \textit{Neural Nets}) on a 30 feature, 500+ record dataset describing the cells from a tumor biopsy (numerical values regarding size, texture, etc.)
+		Compared various ML algorithms (\textbf{KNN}, \textbf{SVM}, \textbf{Logistic Regression}, \textbf{Neural Nets}) on a 30 feature, 500+ record dataset describing the cells from a tumor biopsy (numerical values regarding size, texture, etc.)
 	\item
-		Tested \textit{principle component analysis} to evaluate accuracy loss and improvement in training time
+		Tested \textbf{principle component analysis} to evaluate accuracy loss and improvement in training time
 	\item
 		Won \underline{Synopsys Silicon Valley science fair}, competed in the \underline{Intel International Science Fair 2018} as a finalist
   \end{list}
@@ -123,20 +124,17 @@ Technologies\ & Deep Learning, Data mining, Build automation, Containers, Micros
  \begin{list}{$\cdot$}{\leftmargin=1em} % \cdot used for bullets, no indentation
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
 	\item 
-		Designed and assembled a system with a \textit{Raspberry Pi} that would provide an online interface to the garage door
+		Designed and assembled a \textbf{Raspberry Pi} based system that provides an online interface to the garage door
 	\item
 		Created an intuitive and clean interface for family members to open and close the garage door
 	\item
 		Implemented a logging system for both Wi-Fi and local opens and closes of the garage door
   \end{list}
-
-{\bf A Deep Learning Approach to Lossy Image Compression} \hfill {\bf January 2019 - Present}
- \begin{list}{$\cdot$}{\leftmargin=1em} % \cdot used for bullets, no indentation
-   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
-		\item Working in a team of 3 under the guidance of Dr. Raymond Tu @ the FIRE COML lab
-		\item Exploring the use of image segmentation and autoencoders for superior image compression
-  \end{list}
-
+\vspace{-1mm}
+\begin{center}
+	\href{http://github.dhanvee.xyz}{| More projects at \texttt{github.dhanvee.xyz} |}
+\end{center}
+\vspace{-2mm}
 \end{rSection}
 
 
@@ -149,7 +147,18 @@ Technologies\ & Deep Learning, Data mining, Build automation, Containers, Micros
 		\item Leading a team of 22 to provide networking, A/V, workshops, and scheduling for the largest collegiate hackathon
 		\item Determined travel reimbursement rules and implemented automation scripts for their assignment
 	\end{rSubsection}
+	
+	\begin{rSubsection}{A Deep Learning Approach to Lossy Image Compression}{\textbf{January 2019 - Present}}{}{}
+		\item Exploring the use of autoencoders and image segmentation to perform extreme image compression
+
+	\end{rSubsection}
+
 
 \end{rSection}
+
+\begin{center}
+	\vspace{4mm}
+	\textit{(References available on request)}
+\end{center}
 
 \end{document}
