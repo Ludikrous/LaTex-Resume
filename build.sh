@@ -3,7 +3,8 @@
 filedate=$(date +"%m%d%y")
 
 # build latex file
-latexmk -pdf -c -interaction=nonstopmode
+#latexmk -pdf -c -interaction=nonstopmode
+pdflatex resume.tex
 
 # push to git repo
 git add -A
